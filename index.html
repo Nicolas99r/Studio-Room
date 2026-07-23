@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Room - Broadcast Studio Suite</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  
+  <!-- Open Graph / Social Meta Tags -->
+  <meta property="og:title" content="Studio Room - Broadcast Studio Suite">
+  <meta property="og:description" content="Tu estudio de grabación personal para práctica de instrumentos. Grabación broadcast con overlay profesional, metrónomo integrado y sistema de rutinas.">
+  <meta property="og:image" content="icon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Studio Room - Broadcast Studio Suite">
+  <meta name="twitter:description" content="Tu estudio de grabación personal para práctica de instrumentos.">
+  <meta name="twitter:image" content="icon.svg">
+  
+  <!-- Google Fonts: Inter and JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- App Shell -->
+  <div class="app-container">
+
+    <!-- Top Header -->
+    <header class="app-header">
+      <div class="header-logo">
+        <h1>STUDIO ROOM</h1>
+      </div>
+      <div class="header-right">
+        <div class="total-time-badge" id="totalTimeBadge">
+          <span class="total-time-icon">⏱️</span>
+          <span class="total-time-text" id="totalTimeText">0h 0m</span>
+        </div>
+        <div class="streak-badge" id="streakBadge">
+          <span class="streak-icon">🔥</span>
+          <span class="streak-text">0 Días seguidos</span>
+        </div>
+        <button class="btn btn-secondary btn-icon" id="btnConfig" title="Configurar Plan">
+          <span>⚙️ Configurar</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="app-main">
+
+      <!-- Vista 1: Selector de Día / Dashboard -->
+      <section id="viewDashboard" class="view-section active">
+        <div class="dashboard-grid">
+
+          <!-- Tarjeta Principal del Día Actual -->
+          <div class="card card-hero">
+            <div class="card-hero-header">
+              <span class="badge badge-accent">DÍA ACTUAL</span>
+              <h2 id="currentDayTitle">Día 1: CAGED: Posiciones E y A</h2>
+              <p class="estimated-duration">⏱️ Duración estimada: <span id="currentDayDuration">45</span> minutos</p>
+            </div>
+
+            <div class="card-hero-body">
+              <h3>Ejercicios de hoy:</h3>
+              <ol class="exercises-summary-list" id="exercisesSummaryList">
+                <!-- Se llena con JS -->
+              </ol>
+            </div>
+
+            <div class="card-hero-footer">
+              <button class="btn btn-primary btn-large btn-glow" id="btnEnterStudio">
+                <span>ENTRAR AL ESTUDIO</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Listado Lateral/Inferior de todos los Días -->
+          <div class="card card-sidebar">
+            <div class="card-header">
+              <h3>Calendario de Práctica</h3>
+              <p class="subtitle">Selecciona el día que deseas estudiar</p>
+            </div>
+            <div class="days-list" id="daysList">
+              <!-- Se llena con JS -->
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Vista 2: La Sala de Estudio (Estudio en Vivo) -->
+      <section id="viewStudio" class="view-section">
+        <div class="studio-layout">
+
+          <!-- Columna Izquierda: Cámara Canvas y Controles -->
+          <div class="studio-left">
+            <!-- Contenedor del video y Canvas overlay -->
+            <div class="canvas-container">
+              <div class="canvas-wrapper">
+                <!-- Canvas donde se dibuja el video + el overlay quemado -->
+                <canvas id="studioCanvas" width="1280" height="720"></canvas>
+                <!-- Video oculto que alimenta al canvas -->
+                <video id="hiddenVideo" autoplay muted playsinline style="display: none;"></video>
+                <!-- Metrónomo Flotante -->
+                <div class="metronome-floating">
+                  <button id="btnMetronomeToggle" class="btn btn-secondary metronome-btn">
+                    <span>⏱️ Iniciar</span>
+                  </button>
+                  <div class="metronome-bpm-wrapper">
+                    <input type="number" id="metronomeBpm" class="input-select" value="80" min="40" max="240">
+                    <span class="bpm-label">BPM</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles del Estudio -->
+            <div class="studio-controls-bar">
+              <div class="keyboard-hints">
+                <span class="hint-item"><kbd>Espacio</kbd> Iniciar/Pausar</span>
+                <span class="hint-item"><kbd>M</kbd> Metrónomo</span>
+                <span class="hint-item"><kbd>↑</kbd><kbd>↓</kbd> BPM ±5</span>
+              </div>
+              <div class="control-buttons">
+                <!-- Iniciar/Pausar ejercicio -->
+                <button class="btn btn-success" id="btnPlayPause">
+                  <span class="btn-icon-symbol">▶️</span> <span class="btn-label-text">Iniciar Ejercicio</span>
+                </button>
+                <!-- Siguiente ejercicio -->
+                <button class="btn btn-secondary" id="btnNextExercise" disabled>
+                  <span>Siguiente Ejercicio ⏭️</span>
+                </button>
+                <!-- Finalizar Sesión -->
+                <button class="btn btn-danger" id="btnEndSession">
+                  <span>Terminar Día ⏹️</span>
+                </button>
+              </div>
+
+              <!-- Selectores de Dispositivos -->
+              <div class="device-selectors">
+                <div class="select-field">
+                  <label for="cameraSelect">📹 Cámara:</label>
+                  <select id="cameraSelect" class="input-select">
+                    <option value="">Cargando cámaras...</option>
+                  </select>
+                </div>
+                <div class="select-field">
+                  <label for="micSelect">🎙️ Micrófono:</label>
+                  <select id="micSelect" class="input-select">
+                    <option value="">Cargando micrófonos...</option>
+                  </select>
+                </div>
+                <div class="mirror-toggle-field">
+                  <label class="switch-container">
+                    <input type="checkbox" id="mirrorToggle" checked>
+                    <span class="switch-slider"></span>
+                    <span class="switch-label">Espejo</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Panel de Ejercicios y Notas -->
+          <div class="studio-right">
+
+            <!-- Barra de Progreso General -->
+            <div class="card card-progress">
+              <div class="progress-info">
+                <span class="progress-title">Progreso del Día</span>
+                <span class="progress-value" id="progressText">0/0 completados</span>
+              </div>
+              <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progressBarFill" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Lista de Ejercicios del Día -->
+            <div class="card card-exercises-list flex-grow">
+              <div class="card-header">
+                <h3>📋 EJERCICIOS DEL DÍA</h3>
+              </div>
+              <div class="exercises-scroller">
+                <ul class="exercises-interactive-list" id="exercisesInteractiveList">
+                  <!-- Se llena con JS -->
+                </ul>
+              </div>
+            </div>
+
+            <!-- Notas del Ejercicio Activo -->
+            <div class="card card-notes">
+              <div class="card-header">
+                <h3>💡 NOTAS DEL EJERCICIO</h3>
+              </div>
+              <div class="notes-body" id="activeExerciseNotes">
+                Selecciona o inicia un ejercicio para ver las notas e instrucciones de práctica.
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Vista 3: Resumen y Descarga del Video Compilado -->
+      <section id="viewSummary" class="view-section">
+        <div class="summary-layout">
+
+          <!-- Reproductor de Video Compilado -->
+          <div class="summary-left">
+            <div class="video-preview-card">
+              <div class="video-preview-header">
+                <h3>🎥 REPRODUCTOR COMPILATORIO</h3>
+                <span class="badge badge-accent">OVERLAY ESTAMPADO</span>
+              </div>
+              <div class="video-preview-wrapper">
+                <video id="finalVideoPlayer" controls playsinline></video>
+              </div>
+            </div>
+          </div>
+
+          <!-- Métricas y Acción de Descarga -->
+          <div class="summary-right">
+            <div class="card card-summary-metrics">
+              <div class="card-header">
+                <h2>¡SESIÓN COMPLETADA! 🎸</h2>
+                <p class="subtitle">Resumen de tu entrenamiento de hoy</p>
+              </div>
+
+              <div class="metrics-grid">
+                <div class="metric-item">
+                  <span class="metric-label">📅 Fecha:</span>
+                  <span class="metric-value" id="summaryDate">22 JUL 2026</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-label">⏱️ Tiempo Práctica Efectiva:</span>
+                  <span class="metric-value highlight-green" id="summaryTime">42m 15s</span>
+                </div>
+                <div class="metric-item">
+                  <span class="metric-label">✅ Ejercicios Completados:</span>
+                  <span class="metric-value" id="summaryExercises">4 de 4</span>
+                </div>
+              </div>
+
+              <div class="action-buttons-box">
+                <!-- Botón Principal de Descarga -->
+                <button class="btn btn-primary btn-large btn-glow w-100" id="btnDownloadVideo">
+                  <span>Descargar Video Compilado 📥</span>
+                </button>
+
+                <!-- Botón Secundario Volver a Inicio -->
+                <button class="btn btn-secondary w-100" id="btnBackToDashboard">
+                  <span>Volver al Dashboard 🏠</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Modal/Dialog de Editor Visual de Rutina -->
+    <dialog id="modalEditor" class="dialog-editor">
+      <div class="editor-modal-wrapper">
+        <div class="editor-modal-header">
+          <h3>📝 Editor Visual de Rutina</h3>
+          <button class="btn-close-dialog" id="btnCloseEditor">&times;</button>
+        </div>
+        
+        <div class="editor-modal-body">
+          <!-- Columna Izquierda: Lista de Días -->
+          <div class="editor-days-panel">
+            <div class="editor-days-header">
+              <h4>Días de Práctica</h4>
+              <button class="btn btn-primary w-100" id="btnAddDay" style="font-size: 0.8rem; padding: 0.5rem;">
+                + Nuevo Día
+              </button>
+            </div>
+            <div class="editor-days-list" id="editorDaysList">
+              <!-- Se llena con JS -->
+            </div>
+            <div class="editor-days-footer">
+              <button class="btn btn-danger w-100" id="btnDeleteDay" style="font-size: 0.8rem; padding: 0.5rem;" disabled>
+                🗑️ Eliminar Día
+              </button>
+            </div>
+          </div>
+          
+          <!-- Columna Central: Editor de Día y Ejercicios -->
+          <div class="editor-main-panel">
+            <!-- Empty State cuando no hay día seleccionado -->
+            <div class="editor-empty-state" id="editorEmptyState">
+              <div class="empty-icon">📅</div>
+              <p>Selecciona un día para editar</p>
+              <span class="empty-hint">O crea un nuevo día usando el botón de arriba</span>
+            </div>
+            
+            <!-- Editor de Día (visible cuando hay día seleccionado) -->
+            <div class="editor-day-content" id="editorDayContent" style="display: none;">
+              <div class="editor-day-section">
+                <div class="editor-section-title">Datos del Día</div>
+                <div class="editor-field-group">
+                  <div class="editor-field">
+                    <label for="editorDayTitle">Título del Día</label>
+                    <input type="text" id="editorDayTitle" class="editor-input" placeholder="Ej: Semana 1 - Día 1: Downstrokes">
+                  </div>
+                  <div class="editor-field">
+                    <label for="editorDayDuration">Duración Total (minutos)</label>
+                    <input type="number" id="editorDayDuration" class="editor-input" min="1" max="180" value="50">
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Lista de Ejercicios -->
+              <div class="editor-exercises-section">
+                <div class="editor-exercises-header">
+                  <h4>Ejercicios del Día</h4>
+                  <button class="btn btn-secondary" id="btnAddExercise" style="font-size: 0.75rem; padding: 0.4rem 0.75rem;">
+                    + Agregar
+                  </button>
+                </div>
+                <div class="editor-exercises-list" id="editorExercisesList">
+                  <!-- Se llena con JS -->
+                </div>
+              </div>
+              
+              <!-- Editor de Ejercicio Individual -->
+              <div class="editor-exercise-detail hidden" id="editorExerciseDetail">
+                <div class="editor-section-title">Editando Ejercicio</div>
+                <div class="editor-detail-row">
+                  <div class="editor-field">
+                    <label for="editorExName">Nombre del Ejercicio</label>
+                    <input type="text" id="editorExName" class="editor-input" placeholder="Ej: Bloque 1 - Técnica">
+                  </div>
+                  <div class="editor-field">
+                    <label for="editorExDuration">Duración (seg)</label>
+                    <input type="number" id="editorExDuration" class="editor-input" min="60" max="3600" value="600">
+                  </div>
+                </div>
+                <div class="duration-presets">
+                  <button class="duration-preset-btn" data-duration="300">5m</button>
+                  <button class="duration-preset-btn" data-duration="600">10m</button>
+                  <button class="duration-preset-btn" data-duration="720">12m</button>
+                  <button class="duration-preset-btn" data-duration="780">13m</button>
+                  <button class="duration-preset-btn" data-duration="900">15m</button>
+                </div>
+                <div class="editor-field" style="margin-top: 0.75rem;">
+                  <label for="editorExNotes">Notas / Instrucciones</label>
+                  <textarea id="editorExNotes" class="editor-textarea" placeholder="Escribe las notas e instrucciones detalladas para este ejercicio..."></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Columna Derecha: Editor JSON -->
+          <div class="editor-json-panel">
+            <div class="editor-json-header">
+              <h4>JSON</h4>
+              <button class="btn btn-secondary" id="btnFormatJson" style="font-size: 0.7rem; padding: 0.25rem 0.5rem;">
+                Formatear
+              </button>
+            </div>
+            <div class="editor-json-body">
+              <textarea id="jsonEditor" class="json-editor" spellcheck="false">// Selecciona un día para editar el JSON</textarea>
+              <div id="jsonErrorMsg" class="json-error-message" style="display: none;"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="editor-modal-footer">
+          <div class="editor-unsaved-indicator" id="unsavedIndicator" style="display: none;">
+            <span class="dot"></span>
+            <span>Cambios sin guardar</span>
+          </div>
+          <div class="editor-actions">
+            <button class="btn btn-secondary" id="btnCancelEditor">Cancelar</button>
+            <button class="btn btn-primary" id="btnSaveEditor">💾 Guardar Cambios</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+    
+    <!-- Modal/Dialog de Configuración del Plan JSON (Alternativo - Para usuarios avanzados) -->
+    <dialog id="modalConfig" class="dialog-config">
+      <div class="dialog-wrapper">
+        <div class="dialog-header">
+          <h3>⚙️ Editar Plan de Práctica (JSON)</h3>
+          <button class="btn-close-dialog" id="btnCloseConfig">&times;</button>
+        </div>
+        <div class="dialog-body">
+          <p class="dialog-help">Modifica el JSON de abajo para personalizar tu rutina de práctica. El formato debe ser
+            válido.</p>
+          <textarea id="jsonRoutineInput" class="json-textarea" spellcheck="false"></textarea>
+          <div id="jsonErrorMsg" class="json-error-message" style="display: none;">❌ Formato JSON inválido. Revisa las
+            llaves y comas.</div>
+        </div>
+        <div class="dialog-footer">
+          <button class="btn btn-secondary" id="btnResetConfig">Restablecer Predeterminado</button>
+          <button class="btn btn-primary" id="btnSaveConfig">Guardar Cambios</button>
+        </div>
+      </div>
+    </dialog>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
