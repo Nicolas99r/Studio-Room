@@ -1,0 +1,480 @@
+{
+  "routineName": "PLAN MAESTRO DE GUITARRA: 52 SEMANAS DE TRANSFORMACIÓN",
+  "totalWeeks": 52,
+  "daysPerWeek": 5,
+  "totalDays": 260,
+  "dailyStructureMinutes": {
+    "block1_technique": 12,
+    "block2_fretboard": 13,
+    "block3_repertoire": 15,
+    "block4_creative": 10,
+    "total": 50
+  },
+  "days": [
+    {
+      "dayNumber": 1,
+      "title": "Semana 1 - Día 1: Downstrokes a 80 BPM y Triadas Mayores C, G, E (Enfoque Inicial y Mecanización)",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d1_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "DOWNSTROKES CONTINUOS (80 BPM): Consiste en golpear las cuerdas únicamente hacia abajo. En un compás de 4/4 en corcheas, tocarás 8 golpes por compás (contando '1 y 2 y 3 y 4 y'). Para lograrlo sin fatiga: 1) Mantén la muñeca relajada, el movimiento debe nacer de la muñeca y no de todo el brazo desde el codo. 2) Inclina la púa aproximadamente a 45 grados respecto a la cuerda para que deslice suavemente sin engancharse. 3) Toca 4 compases seguidos (32 golpes en total) a 80 BPM buscando que cada nota suene exactamente con el mismo volumen y timbre."
+        },
+        {
+          "id": "d1_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "MAPEO 6ª CUERDA Y TRIADAS 1-2-3: Parte A (5 min): Recorre la 6ª cuerda desde al aire (E) hasta el traste 12 tocando y diciendo en voz alta solo las notas naturales: Traste 0 (E), 1 (F), 3 (G), 5 (A), 7 (B), 8 (C), 10 (D), 12 (E). Parte B (8 min): Construye la tríada de C Mayor en cuerdas 1, 2 y 3. Recuerda que una tríada mayor se compone de Tónica (1ª), Tercera mayor (3ª) y Quinta justa (5ª). En posición abierta (forma de C): Cuerda 3 al aire (G - 5ª), Cuerda 2 traste 1 (C - Tónica), Cuerda 1 al aire (E - 3ª). Pon la postura nota por nota, pisa con la punta de los dedos para no apagar cuerdas vecinas y haz sonar cada nota limpia."
+        },
+        {
+          "id": "d1_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE (GREEN DAY) - COMPASES 1 Y 2: Nos enfocaremos en los primeros dos acordes de la estrofa (E5 y B5). Técnica clave - PALM MUTING: Apoya suavemente el borde muscular de la mano derecha (la parte carnosa del dedo meñique/palma) sobre las cuerdas, justamente donde descansan sobre las monturas del puente. La cuerda debe sonar ligeramente apagada, percusiva y crujiente, pero sin perder la afinación. Toca el compás 1 en E5 y el compás 2 en B5 usando downstrokes en corcheas constantes a 80 BPM con el metrónomo."
+        },
+        {
+          "id": "d1_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "PREPARACIÓN DEL BUCLE I - V (G - D): Entender la progresión: En la tonalidad de Sol Mayor (G), el grado I es G y el grado V es D. Hoy ubicaremos ambas tríadas en cuerdas 1-2-3 sin grabar aún la toma final. Tríada de G Mayor (Forma Abierta): Cuerda 3 al aire (G), Cuerda 2 al aire (B), Cuerda 1 traste 3 (G). Tríada de D Mayor: Cuerda 3 traste 2 (A), Cuerda 2 traste 3 (D), Cuerda 1 traste 2 (F#). Practica el cambio biomecánico entre el acorde G y D a tempo de corcheas (2 compases en G y 2 compases en D) asegurando que la transición sea fluida sin pausar el tiempo."
+        }
+      ]
+    },
+    {
+      "dayNumber": 2,
+      "title": "Semana 1 - Día 2: Precisión de Ataque y Expansión de Formas de Tríadas",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d2_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "UNIFORMIDAD EN ÁNGULO DE ATAQUE (80 BPM): Hoy el foco biomecánico es la consistencia. Al hacer downstrokes, asegúrate de que la púa penetre la cuerda a la misma profundidad en cada golpe (entre 1 y 2 mm de la punta de la púa). Si la púa entra demasiado profundo, la cuerda trasteará o sonarás fuera de tiempo; si entra muy poco, el sonido será débil. Ejecuta bloques de 4 compases en corcheas a 80 BPM evaluando auditivamente que no haya notas más fuertes o débiles que otras."
+        },
+        {
+          "id": "d2_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "TRIADAS DE G Y E EN CUERDAS 1-2-3: Parte A (5 min): Recorrido inverso en 6ª cuerda (del traste 12 al 0 diciendo las notas naturales en voz alta). Parte B (8 min): Incorpora las formas de G y E. Forma de G (Tríada): Cuerda 3 al aire (G - Tónica), Cuerda 2 al aire (B - 3ª), Cuerda 1 traste 3 (G - Tónica) o usando la forma cerrada con raíz en cuerda 3. Forma de E (Tríada abierta): Cuerda 3 traste 1 (G# - 3ª), Cuerda 2 al aire (B - 5ª), Cuerda 1 al aire (E - Tónica). Toca cada forma, di el nombre del acorde y nombra las notas que lo componen."
+        },
+        {
+          "id": "d2_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - COMPASES 3 Y 4 Y TRANSICIÓN: Agregamos los compases 3 (C#m / F#m según la tonalidad del riff) y 4 (G# / A). Concéntrate en la transición rítmica entre el compás 2 y el 3: no levantes el palm muting antes de tiempo. Mantén la presión de la mano derecha fija contra el puente. Si sientes tensión en el antebrazo izquierdo al cambiar de acorde, relaja los dedos justo en la fracción de segundo en que te desplazas de un traste a otro."
+        },
+        {
+          "id": "d2_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "PRIMERA TOMA DEL BUCLE I - V (G - D): Prepara tu DAW, Looper o teléfono. Configura el metrónomo a 80 BPM. Graba una base rítmica de 4 compases: 2 compases tocando la tríada de G Mayor en cuerdas 1-2-3 y 2 compases tocando la tríada de D Mayor. Usa un patrón simple de rasgueo en corcheas constantes con downstrokes. Escucha la grabación: verifica si los cambios de acorde cayeron exactamente sobre el tiempo 1 de cada compás."
+        }
+      ]
+    },
+    {
+      "dayNumber": 3,
+      "title": "Semana 1 - Día 3: Resistencia Muscular y Conexión Fluida de Tríadas",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d3_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "TEST DE RESISTENCIA Y CERO TENSIÓN (80 BPM): Toca downstrokes en corcheas de forma ininterrumpida durante 1 minuto completo (a 80 BPM son 160 golpes continuos). Durante el ejercicio, haz un escaneo corporal: ¿estás apretando la mandíbula? ¿estás elevando el hombro derecho? Si detectas tensión, exhala y relaja el hombro sin detener el pulso de la mano. La resistencia no se construye con fuerza, sino eliminando el esfuerzo innecesario."
+        },
+        {
+          "id": "d3_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "CONEXIÓN DE FORMAS C, G, E (CAMBIOS CONTINUOS): Coloca el metrónomo a 70 BPM. Vas a alternar entre las tríadas de C, G y E en cuerdas 1-2-3 cambiando de acorde cada 2 tiempos (dos negras). El objetivo es la economía de movimiento: no levantes los dedos más de 1 cm sobre el mástil al cambiar de postura. Anticipa mentalmente la figura del siguiente acorde antes de ejecutar el cambio."
+        },
+        {
+          "id": "d3_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - ENSAMBLE DE LOS 4 COMPASES (80% VELOCIDAD): Unifica los 4 compases de la estrofa completa a un tempo lento (alrededor de 100-110 BPM si el tempo real es ~175 BPM, o a 80 BPM marcando corcheas estrictas). Enfócate en el 'Groove' y la 'Intención': el punk rock requiere un ataque firme y percusivo. La mano derecha debe moverse como un péndulo mecánico e implacable."
+        },
+        {
+          "id": "d3_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "SOBRECAPA (OVERDUB) DE TÓNICAS: Abre el bucle que grabaste el Día 2 (o graba uno nuevo si es necesario). Escucha la pista y graba una segunda guitarra por encima: durante los 2 compases de G, toca en corcheas la nota G (tónica) en la 1ª cuerda traste 3. Durante los 2 compases de D, toca la nota D (tónica) en la 2ª cuerda traste 3. Aprenderás a escuchar cómo interactúa una nota melódica sobre su acorde armónico correspondiente."
+        }
+      ]
+    },
+    {
+      "dayNumber": 4,
+      "title": "Semana 1 - Día 4: Control Dinámico de Acentos y Velocidad Objetivo",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d4_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "DOWNSTROKES CON ACENTOS EN EL TIEMPO 1: Toca corcheas a 80 BPM pero añade control dinámico: el primer golpe de cada compás (el tiempo '1') debe sonar marcadamente más fuerte (Acento) que los demás golpes ('y 2 y 3 y 4 y'). Esto se logra aumentando ligeramente la velocidad y amplitud de la muñeca únicamente en el pulso 1. El control de dinámicas es la diferencia entre sonar como un robot o suena como un músico expresivo."
+        },
+        {
+          "id": "d4_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "TEST DE VELOCIDAD DE REACCION EN EL DIAPASÓN: Parte A: Pídele a un temporizador o di en voz alta una nota al azar (ej. '¡Sol!'). Debes ubicar la nota en la 6ª cuerda en menos de 2 segundos. Parte B: Arma la tríada mayor correspondiente en cuerdas 1-2-3 de manera instantánea. Si dominas la ubicación visual de la tónica, podrás transportar estas figuras a cualquier punto del mástil en el futuro."
+        },
+        {
+          "id": "d4_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - EJECUCIÓN A TEMPO REAL O CERCA DEL TEMPO: Intenta tocar los 4 compases junto a la pista original de Green Day o con metrónomo acelerado progresivamente. Si a velocidad real notas que pierdes la claridad del palm muting o que la mano se traba, reduce un 10% el tempo. Identifica exactamente en qué cambio de acorde ocurre el error para aislarlo y corregirlo."
+        },
+        {
+          "id": "d4_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "PULIDO DINÁMICO DEL BUCLE: Practica tocar el bucle de tríadas I - V (G - D) aplicando la técnica de acentos que practicaste en el Bloque 1. Haz que el primer pulso de cada compás tenga energía y peso, mientras que las corcheas restantes suenen más suaves. Registra una toma de prueba para escuchar la diferencia de musicalidad cuando aplicas dinámicas."
+        }
+      ]
+    },
+    {
+      "dayNumber": 5,
+      "title": "Semana 1 - Día 5: Test de Precisión, Consolidación y Registro en Audio/Video",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d5_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "TEST DE EVALUACIÓN DE DOWNSTROKES: Reto del viernes: Ejecuta 4 compases completos en corcheas a 80 BPM con metrónomo. Regla de evaluación: Si un solo golpe de púa a destiempo, si toca una cuerda no deseada o si varía el volumen, el conteo vuelve a cero. Tu objetivo es lograr 3 series consecutivas perfectas de 4 compases. Anota en tus notas si lograste la meta con cero tensión muscular."
+        },
+        {
+          "id": "d5_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "CONSOLIDACIÓN Y REPASO TEÓRICO: Haz el recorrido completo de notas naturales en la 6ª cuerda (ida y vuelta) tocando impecable. Luego, toca las tríadas de C, G y E en cuerdas 1-2-3. Para cada tríada, debes ser capaz de señalar con el dedo y decir en voz alta: 'Esta es la tónica, esta es la tercera mayor y esta es la quinta justa'. Entender lo que tocas consolida la memoria visual y auditiva."
+        },
+        {
+          "id": "d5_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "GRABACIÓN DE CONTROL - BASKET CASE: Enciende la cámara de tu teléfono o la grabadora de audio. Toca los 4 compases de la estrofa de Basket Case buscando la máxima uniformidad de ataque y limpieza en el palm muting. Graba 2 o 3 tomas. Al finalizar, tómate 2 minutos para revisar el video: observa la postura de tu muñeca derecha y comprueba si mantuviste el pulso estable."
+        },
+        {
+          "id": "d5_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "GRABACIÓN Y EXPORTACIÓN FINAL DEL BUCLE I - V: Graba la toma definitiva de tu bucle rítmico (2 compases en G, 2 compases en D usando tríadas en cuerdas 1-2-3). Aplica todo lo aprendido en la semana: entrada precisa en el tiempo, ataque uniforme, sonido limpio y dinámicas. Guarda este archivo de audio con la etiqueta 'Semana1_Bucle_GD'. Te servirá como referencia para comparar tu sonido y precisión en las próximas semanas."
+        }
+      ]
+    },
+    {
+      "dayNumber": 6,
+      "title": "Semana 2 - Día 1: Transición de Muting a 95 BPM, Notas en 5ª Cuerda y 1ª Inversión (Mecanización)",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d1_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "DOWNSTROKES A 95 BPM Y CAMBIO A PALM MUTING (2 COMPASES ABIERTOS / 2 COMPASES PM): Sube el metrónomo a 95 BPM en corcheas. El reto biomecánico es el control de la mano derecha: toca 2 compases (16 corcheas) con las cuerdas al aire (respirando y resonantes) y, sin perder el pulso del metrónomo, apoya suavemente el borde externo de la palma junto al puente para tocar los siguientes 2 compases en Palm Muting (sonido seco y percusivo). Repite el ciclo sin interrupción. Mantén la tensión muscular en cero."
+        },
+        {
+          "id": "d1_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "MAPEO 5ª CUERDA (A, B, C, D) Y 1ª INVERSIÓN DE C MAYOR: Parte A (5 min): Ubica en la 5ª cuerda las notas naturales desde al aire hasta el traste 5: Traste 0 (A), Traste 2 (B), Traste 3 (C), Traste 5 (D). Di cada nota en voz alta al tocarla. Parte B (8 min): Entender la 1ª Inversión: Significa que la nota más grave del acorde no es la tónica, sino la 3ª mayor. La estructura de notas en cuerdas 1-2-3 (de la 3ª cuerda a la 1ª) es [3ª - 5ª - Tónica]. Para C Mayor en 1ª inversión: Cuerda 3 traste 9 (E - 3ª), Cuerda 2 traste 8 (G - 5ª), Cuerda 1 traste 8 (C - Tónica). Coloca los dedos (Dedo 3 en traste 9, Dedo 2 en traste 8, Dedo 1 en traste 8) y verifica que suene afinado y limpio."
+        },
+        {
+          "id": "d1_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - SEGUNDA MITAD DE LA ESTROFA (A5, E5, B5): Revisaremos los acordes de cierre del verso: A5 (5ª cuerda traste 0 / 4ª traste 2), E5 (6ª traste 0 / 5ª traste 2) y B5 (5ª traste 2 / 4ª traste 4). Toca cada acorde usando downstrokes constantes en corcheas a tempo lento (~135 BPM marcando negras, equivalente al 80% de la velocidad real). Enfócate en la precisión del palm muting al cambiar la posición de la mano izquierda entre la 5ª y la 6ª cuerda."
+        },
+        {
+          "id": "d1_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "CONTRASTE AUDITIVO: FUNDAMENTAL VS 1ª INVERSIÓN: En este primer día explora auditivamente la diferencia entre la forma Fundamental de C Mayor aprendida la semana 1 (cuerdas 1-2-3: traste 0-1-0 en posición abierta) y la 1ª Inversión (9-8-8). Toca 2 compases de la forma Fundamental y 2 compases de la 1ª Inversión. Observa cómo la 1ª inversión ofrece un color melódico más brillante y enfocado gracias a que la tónica queda ubicada en la 1ª cuerda."
+        }
+      ]
+    },
+    {
+      "dayNumber": 7,
+      "title": "Semana 2 - Día 2: Control de Transición Rítmica y 1ª Inversión de G Mayor",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d2_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "UNIFORMIDAD DE VOLUMEN EN CAMBIO ABIERTO/PM (95 BPM): Toca la secuencia a 95 BPM (2 compases abierto / 2 compases PM). El error común al poner el Palm Muting es golpear más fuerte de lo necesario o perder volumen abruptamente. Busca ajustar la fuerza del ataque con la púa para que las notas atenuadas mantengan el mismo cuerpo y presencia que las notas abiertas."
+        },
+        {
+          "id": "d2_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "MAPEO 5ª CUERDA (E, F, G, A) Y 1ª INVERSIÓN DE G MAYOR: Parte A (5 min): Completa la 5ª cuerda del traste 7 al 12: Traste 7 (E), Traste 8 (F), Traste 10 (G), Traste 12 (A). Recorre la cuerda de ida y vuelta. Parte B (8 min): Construye la 1ª inversión de G Mayor en cuerdas 1-2-3: Cuerda 3 traste 4 (B - 3ª), Cuerda 2 traste 3 (D - 5ª), Cuerda 1 traste 3 (G - Tónica). Coloca los dedos (Dedo 3 en cuerda 3, y cejilla pequeña o Dedos 1 y 2 en cuerdas 1 y 2) y di el nombre de los grados en voz alta mientras arpegias la postura."
+        },
+        {
+          "id": "d2_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - CONEXIÓN DE LA ESTROFA COMPLETA (80% BPM): Une la primera mitad de la estrofa (E5 - B5 - C#m5 - G#m5) con la segunda mitad (A5 - E5 - B5) a velocidad reducida (~135-140 BPM). Conéctalos sin perder el conteo de corcheas. Escucha atentamente que la mano derecha mantenga el palm muting de forma homogénea durante todo el recorrido sin frenar en los cambios de acorde."
+        },
+        {
+          "id": "d2_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "CREACIÓN DE MOTIVO RÍTMICO EN 1ª INVERSIÓN: Crea una célula rítmica de 2 compases alternando entre la 1ª inversión de G Mayor (4-3-3) y la 1ª inversión de C Mayor (9-8-8). Toca un rasgueo simple en corcheas marcando los acentos en el tiempo 1. Graba una primera toma borrador para acostumbrar tus dedos a los saltos de posición a lo largo del mástil."
+        }
+      ]
+    },
+    {
+      "dayNumber": 8,
+      "title": "Semana 2 - Día 3: Resistencia en Downstrokes y Conexión de Inversiones",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d3_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "RESISTENCIA Y CICLOS CONTINUOS EN 95 BPM: Ejecuta 4 ciclos completos de la rutina rítmica (2 compases abierto / 2 compases PM) sin detenerte (16 compases en total a 95 BPM). Si notas tensión acumulada en la muñeca o antebrazo derecho, asegúrate de no estar presionando la palma contra el puente con demasiada fuerza; la mano solo debe rozar las cuerdas suavemente."
+        },
+        {
+          "id": "d3_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "CONEXIÓN DE TRÍADAS FUNDAMENTALES E INVERSIONES: Ejercicio dinámico: Toca C Fundamental (posición abierta o traste 5 en cuerdas 1-2-3) e inmediatamente cambia a C en 1ª Inversión (9-8-8). Luego toca G Fundamental (0-0-3) y cambia a G en 1ª Inversión (4-3-3). El objetivo es mecanizar el cambio de mapa visual entre la postura con tónica en la base vs. tónica en la 1ª cuerda."
+        },
+        {
+          "id": "d3_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - BUCLE CONTINUO Y MANTENIMIENTO DE GROOVE: Repite la estrofa completa 3 veces seguidas a ritmo controlado (80% BPM) sin pausar entre repeticiones. Presta atención al mofleado de cuerdas: asegúrate de mutear con la palma únicamente las cuerdas que estás tocando para evitar que retumben las cuerdas al aire no deseadas."
+        },
+        {
+          "id": "d3_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "GRABACIÓN DE BASE + ARREGLO EN INVERSIÓN: Graba en tu looper o DAW una base rítmica de 4 compases usando la postura fundamental de G y C. Luego, sobregraba una segunda guitarra usando únicamente las formas en 1ª Inversión de estos mismos acordes. Comprueba cómo ambas guitarras se complementan sonoramente sin encimarse en frecuencia."
+        }
+      ]
+    },
+    {
+      "dayNumber": 9,
+      "title": "Semana 2 - Día 4: Control Dinámico, Acentos Rítmicos y Agilidad",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d4_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "CAMBIO BRUSCO DE DINÁMICAS (SUBITO PIANO / FORTE) A 95 BPM: Toca los 2 compases en Palm Muting con volumen muy bajo (piano/suave) y los 2 compases abiertos con ataque potente y acentuado (forte). Este ejercicio desarrolla la independencia neuromuscular de la mano derecha para controlar el volumen sin alterar la velocidad ni perder el tiempo del metrónomo."
+        },
+        {
+          "id": "d4_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "TEST DE AGILIDAD EN 5ª CUERDA E INVERSIONES: Parte A: Ubica una nota al azar en la 5ª cuerda (ej: '¡Do!' -> traste 3, '¡Sol!' -> traste 10) en menos de 2 segundos. Parte B: Mueve la forma de 1ª inversión a lo largo del mástil identificando la nota tónica en la 1ª cuerda. Recuerda: en la 1ª inversión en cuerdas 1-2-3, la nota que toca la 1ª cuerda determina el nombre del acorde."
+        },
+        {
+          "id": "d4_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - INCREMENTO GRADUAL DE TEMPO Y CONTROL RÍTMICO: Ejecuta la estrofa subiendo un 5% la velocidad (aproximadamente a un 85%-90% del tempo real). Mantén el control: si notas que los rasgueos pierden uniformidad o los acordes suenan sucios, regresa inmediatamente al 80% para consolidar la memoria muscular antes de acelerar."
+        },
+        {
+          "id": "d4_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "PULIDO DEL RIFF EN 1ª INVERSIÓN CON PALM MUTING: Aplica la técnica del Bloque 1 a tu riff rítmico: toca la postura fundamental abierta y combina las tríadas en 1ª inversión aplicando Palm Muting en las corcheas intermedias. Construye un riff con actitud de rock alternativo que combine tensión y liberación."
+        }
+      ]
+    },
+    {
+      "dayNumber": 10,
+      "title": "Semana 2 - Día 5: Test de Control, Consolidación y Registro en Audio/Video",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d5_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "EVALUACIÓN DE DOWNSTROKES Y MUTING A 95 BPM: Reto del viernes: Ejecuta 3 ciclos perfectos de 4 compases (2 abierto / 2 PM) a 95 BPM sin perder el pulso del metrónomo ni alterar el volumen. Si cometes un error de tiempo o un roce de cuerda no deseado, reinicia el conteo. Anota el resultado en tu registro diario."
+        },
+        {
+          "id": "d5_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "CONSOLIDACIÓN TOTAL: MAPEO 5ª CUERDA E INVERSIONES: Recorre todas las notas naturales en la 5ª cuerda de traste 0 a 12 (A, B, C, D, E, F, G, A) diciendo sus nombres. A continuación, toca en cuerdas 1-2-3 las tríadas de C Mayor y G Mayor alternando de forma fluida entre Posición Fundamental y 1ª Inversión, nombrando los grados de cada inversión (3ª, 5ª y Tónica)."
+        },
+        {
+          "id": "d5_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "GRABACIÓN DE CONTROL - ESTROFA BASKET CASE (80% BPM): Registra en video o audio la ejecución de la estrofa completa de Basket Case a velocidad lenta (80%). Analiza la grabación: evalúa si el palm muting es uniforme, si los cambios de acorde son limpios y si la postura de la mano derecha se mantiene relajada."
+        },
+        {
+          "id": "d5_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "GRABACIÓN Y EXPORTACIÓN DEL RIFF DE INVERSIONES: Graba la toma final de tu riff rítmico combinando posiciones fundamentales y 1ª inversión con downstrokes y muting. Guarda tu archivo con el nombre 'Semana2_Riff_Inversiones'. Este audio cerrará tu registro de la Semana 2 y servirá para medir tu avance en dinámicas e inversiones."
+        }
+      ]
+    },
+    {
+      "dayNumber": 11,
+      "title": "Semana 3 - Día 1: Downstrokes a 110 BPM, Mapeo en 4ª Cuerda y 2ª Inversión (Mecanización)",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d1_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "DOWNSTROKES A 110 BPM Y BIOMECÁNICA DE MUÑECA: Sube el metrónomo a 110 BPM en corcheas. A esta velocidad, cualquier tensión en el antebrazo o intento de mover el brazo desde el codo bloqueará la mano en pocos segundos. Regla biomecánica: fija levemente el antebrazo sobre el cuerpo de la guitarra y haz que todo el abanico del movimiento nazca de la articulación de la muñeca (flexión y extensión). Toca bloques de 4 compases continuos a 110 BPM buscando soltura absoluta."
+        },
+        {
+          "id": "d1_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "MAPEO 4ª CUERDA (D, E, F, G) Y 2ª INVERSIÓN DE G MAYOR: Parte A (5 min): Ubica en la 4ª cuerda las notas naturales desde al aire hasta el traste 5: Traste 0 (D), Traste 2 (E), Traste 3 (F), Traste 5 (G). Di el nombre de cada nota en voz alta. Parte B (8 min): Entender la 2ª Inversión: La nota más grave del acorde es la 5ª justa. La estructura en cuerdas 1-2-3 (de 3ª a 1ª cuerda) es [5ª - Tónica - 3ª]. Para G Mayor en 2ª inversión: Cuerda 3 traste 7 (D - 5ª), Cuerda 2 traste 8 (G - Tónica), Cuerda 1 traste 7 (B - 3ª). (Forma equivalente a la figura de Re Mayor abierta). Arma la postura nota por nota y verifica su sonido."
+        },
+        {
+          "id": "d1_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - ANÁLISIS DE LA TRANSICIÓN ESTROFA A CORO: Analiza el compás final de la estrofa (remate en B5) y la entrada al primer compás del coro (C#5 o C#m). El reto técnico aquí es la transición de intención rítmica: la estrofa se toca en Palm Muting cerrado y percusivo, mientras que en la transición al coro debes soltar el muting en el tiempo 4 para dejar abrir el sonido hacia el primer acorde del coro. Practica este cambio de 2 compases a tempo lento (80% BPM)."
+        },
+        {
+          "id": "d1_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "CONEXIÓN DE FUNDAMENTAL Y 2ª INVERSIÓN: Selecciona el acorde de Sol Mayor (G). Toca 2 compases de G en Posición Fundamental en cuerdas 1-2-3 (cuerda 3 al aire, cuerda 2 al aire, cuerda 1 traste 3) y salta inmediatamente a 2 compases de G en 2ª Inversión (trastes 7-8-7). Mide el tiempo que le toma a tu mano izquierda realizar el desplazamiento de 7 trastes sin frenar el ritmo del metrónomo."
+        }
+      ]
+    },
+    {
+      "dayNumber": 12,
+      "title": "Semana 2 - Día 2: Control de Tensión a 110 BPM y 2ª Inversión de C Mayor",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d2_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "PRUEBA DE VELOCIDAD CONTINUA EN 110 BPM: Ejecuta downstrokes constantes a 110 BPM durante 8 compases seguidos (64 golpes). Durante el ejercicio, haz conciencia de los dedos de la mano izquierda: aunque no estén pisando acordes complejos, mantén la mano izquierda relajada cerca del mástil. La tensión en una mano suele transferirse automáticamente a la otra (sincronía de tensión)."
+        },
+        {
+          "id": "d2_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "MAPEO 4ª CUERDA (A, B, C, D) Y 2ª INVERSIÓN DE C MAYOR: Parte A (5 min): Completa la 4ª cuerda del traste 7 al 12: Traste 7 (A), Traste 9 (B), Traste 10 (C), Traste 12 (D). Parte B (8 min): Construye la 2ª Inversión de C Mayor en cuerdas 1-2-3. Estructura [5ª - Tónica - 3ª]: Cuerda 3 traste 12 (G - 5ª), Cuerda 2 traste 13 (C - Tónica), Cuerda 1 traste 12 (E - 3ª). (También puedes probar su octava grave abierta: 0-1-0). Toca cada nota de la tríada nombrando su función armónica."
+        },
+        {
+          "id": "d2_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - POWER CHORDS DEL CORO (C#5 - A5 - E5 - B5): Practica los acordes del coro con Power Chords de 5ª en raíz 5ª y 6ª cuerda: C#5 (5ª cuerda traste 4), A5 (6ª cuerda traste 5), E5 (5ª cuerda traste 7 o 6ª al aire) y B5 (5ª cuerda traste 2). Toca rasgueos abiertos y potentes en downstrokes marcando el cambio de acorde exacto en el tiempo 1 de cada compás."
+        },
+        {
+          "id": "d2_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "MAPEO DE LAS 3 INVERSIONES DE C MAYOR EN EL MÁSTIL: Ubica en cuerdas 1-2-3 las tres formas aprendidas de Do Mayor: 1) Posición Fundamental (trastes 5-5-3), 2) 1ª Inversión (trastes 9-8-8) y 3) 2ª Inversión (trastes 12-13-12). Toca 1 compás de cada una consecutivamente para mapear visualmente cómo asciende el acorde a lo largo del diapasón."
+        }
+      ]
+    },
+    {
+      "dayNumber": 13,
+      "title": "Semana 3 - Día 3: Acentos Rítmicos a 110 BPM y Ensamble de la Progresión de Inversiones",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d3_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "ACENTOS DINÁMICOS A 110 BPM (TIEMPOS 1 Y 3): Mantiene la velocidad de 110 BPM en corcheas pero acentúa con mayor velocidad de púa los tiempos fuertes 1 y 3 de cada compás ('1 y 2 y 3 y 4 y'). Este ejercicio entrena el control de fuerza de la muñeca sin tensar el brazo, permitiendo que la velocidad fluya sin volverse monótona."
+        },
+        {
+          "id": "d3_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "DESPLAZAMIENTO FLUIDO ENTRE INVERSIONES DE UN MISMO ACORDE: Coloca el metrónomo a 80 BPM. Selecciona la tonalidad de Sol Mayor (G). Toca en cuerdas 1-2-3: G Fundamental (0-0-3) -> G 1ª Inversión (4-3-3) -> G 2ª Inversión (7-8-7). Cambia de forma cada 2 tiempos (dos negras). Enfócate en desplazar la mano de forma horizontal sobre el diapasón sin perder la afinación o el tiempo."
+        },
+        {
+          "id": "d3_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - ENSAMBLE ESTROFA A CORO (80% BPM): Toca los últimos 4 compases de la estrofa e hílalos directamente con los primeros 4 compases del coro a velocidad controlada. Pon especial atención a la limpieza en el cambio de Power Chords: apaga con el borde de los dedos de la mano izquierda las cuerdas que no deben sonar para evitar ruidos de fondo en la transición."
+        },
+        {
+          "id": "d3_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "ESTRATEGIA DE LA PROGRESIÓN DE 4 COMPASES (3 INVERSIONES): Diseña el esquema de tu laboratorio creativo: Compás 1: C Mayor Fundamental (5-5-3). Compás 2: C Mayor 1ª Inversión (9-8-8). Compás 3: C Mayor 2ª Inversión (12-13-12). Compás 4: C Mayor en Posición Fundamental octava alta o retorno a 2ª Inversión. Toca un rasgueo rítmico constante en corcheas para asegurar la continuidad del ritmo."
+        }
+      ]
+    },
+    {
+      "dayNumber": 14,
+      "title": "Semana 3 - Día 4: Resistencia de Muñeca y Agilidad en Cambios de Posición",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d4_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "TEST DE RESISTENCIA DE 1 MINUTO A 110 BPM: Intenta sostener downstrokes continuos en corcheas a 110 BPM durante 60 segundos ininterrumpidos (220 golpes seguidos). Si sientes que el antebrazo se 'quema' o se agarrota, detén el ejercicio, sacude la mano y revisa si estás haciendo fuerza excesiva con el codo. La muñeca debe moverse suelta como si sacudieras agua de los dedos."
+        },
+        {
+          "id": "d4_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "TEST DE VELOCIDAD DE IDENTIFICACIÓN EN 4ª CUERDA Y 2ª INVERSIÓN: Parte A: Toca al azar notas en la 4ª cuerda y di su nombre instantáneamente. Parte B: Aplica la forma de 2ª Inversión [5ª - Tónica - 3ª] en cualquier punto del mástil identificando la nota tónica en la 2ª cuerda. Recordatorio: en la 2ª inversión en cuerdas 1-2-3, la 2ª cuerda dicta el nombre del acorde."
+        },
+        {
+          "id": "d4_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "BASKET CASE - TRANSICIÓN A VELOCIDAD CERCANA A LA REAL (~90% BPM): Sube la velocidad del pasaje Estrofa -> Coro al 90% del tempo de la canción. Evalúa que el remate de la estrofa no se acelere ni se atrase respecto al metrónomo al cambiar de la técnica de Palm Muting a rasgueo abierto en el Coro."
+        },
+        {
+          "id": "d4_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "PULIDO Y CONDUCCIÓN DE VOCES (VOICE LEADING): Practica la progresión de 4 compases conectando las 3 inversiones de C Mayor. Aplica dinámicas: haz un crescendo (aumento de volumen gradual) a medida que la posición del acorde asciende desde la Posición Fundamental (grave) hasta la 2ª Inversión (aguda)."
+        }
+      ]
+    },
+    {
+      "dayNumber": 15,
+      "title": "Semana 3 - Día 5: Test de Precisión, Consolidación y Registro en Audio/Video",
+      "durationMinutes": 50,
+      "exercises": [
+        {
+          "id": "d5_e1",
+          "name": "Bloque 1 [12 min]: Músculo, Técnica y Metrónomo",
+          "duration": 720,
+          "notes": "TEST DE CONTROL DE DOWNSTROKES A 110 BPM: Reto del viernes: Toca 4 compases continuos de downstrokes en corcheas a 110 BPM sin un solo descuadre con el metrónomo. Evalúa la limpieza: la púa no debe rozar cuerdas vecinas y el sonido debe mantenerse uniforme. Si fallas, reinicia el conteo de 4 compases."
+        },
+        {
+          "id": "d5_e2",
+          "name": "Bloque 2 [13 min]: Geometría Armónica y Diapasón",
+          "duration": 780,
+          "notes": "CONSOLIDACIÓN MAPEO 4ª CUERDA Y LAS 3 INVERSIONES: Recorre todas las notas naturales en la 4ª cuerda (D, E, F, G, A, B, C, D). A continuación, en cuerdas 1-2-3, toca para el acorde de C Mayor y para el acorde de G Mayor sus 3 formas en secuencia: 1) Fundamental, 2) 1ª Inversión y 3) 2ª Inversión, nombrando los grados de cada postura."
+        },
+        {
+          "id": "d5_e3",
+          "name": "Bloque 3 [15 min]: Repertorio, Riffs y Análisis",
+          "duration": 900,
+          "notes": "GRABACIÓN DE CONTROL - TRANSICIÓN ESTROFA/CORO BASKET CASE: Graba en video o audio la sección completa de transición (4 compases finales de estrofa + 4 compases iniciales de coro). Analiza en el video: comprueba si la transición entre el palm muting percusivo de la estrofa y el ataque abierto del coro fue fluida y sin vacilaciones."
+        },
+        {
+          "id": "d5_e4",
+          "name": "Bloque 4 [10 min]: Laboratorio Creativo y Composición",
+          "duration": 600,
+          "notes": "GRABACIÓN Y EXPORTACIÓN DE LA PROGRESIÓN DE 3 INVERSIONES: Registra en tu DAW o looper la toma final de tu progresión de 4 compases conectando la Posición Fundamental, 1ª Inversión y 2ª Inversión de un mismo acorde. Guarda el archivo con el nombre 'Semana3_Progresion_3Inversiones'. Con este ejercicio cierras la maestría del mapa de tríadas mayores en el primer grupo de cuerdas (1-2-3)."
+        }
+      ]
+    }
+  ]
+}

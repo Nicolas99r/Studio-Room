@@ -7,14 +7,14 @@ const __dirname = dirname(__filename);
 
 export default defineConfig({
   build: {
-    outDir: '.',
-    emptyOutDir: false,
+    outDir: 'dist',
+    emptyOutDir: true,
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html')
       },
       output: {
-        entryFileNames: '[name].js',
+        entryFileNames: '[name].[hash].js',
         chunkFileNames: '[name]-[hash].js',
         assetFileNames: '[name]-[hash][extname]'
       }
